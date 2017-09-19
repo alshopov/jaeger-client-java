@@ -8,6 +8,8 @@ plugins {
     id "com.github.johnrengelman.shadow" version "2.0.1"
     id "net.ltgt.errorprone" version "0.0.10"
     id 'ru.vyarus.animalsniffer' version '1.3.0'
+    // './gradlew dependencyUpdates' will give you the updates of dependencies
+    id 'com.github.ben-manes.versions' version '0.15.0'
 }
 
 ext.developmentVersion = '0.21.0-SNAPSHOT'
