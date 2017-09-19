@@ -2,7 +2,7 @@ apply plugin: 'com.github.johnrengelman.shadow'
 
 
 description = 'A jaeger instrumented java server meant for testing interoperability with different Jaeger clients through the use of crossdock (https://github.com/crossdock/crossdock)'
-ext.jacksonVersion = '2.7.4'
+ext.jacksonVersion = '2.9.1'
 shadowJar.archiveName = 'jaeger-crossdock.jar'
 
 compileJava {
