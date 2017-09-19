@@ -58,7 +58,7 @@ final class ThriftSpanEncoder implements Encoder<Span> {
     }
   }
 
-  final ThreadLocal<ReusableTBinaryProtocol> protocol =
+  final static ThreadLocal<ReusableTBinaryProtocol> protocol =
       new ThreadLocal<ReusableTBinaryProtocol>() {
         @Override
         protected ReusableTBinaryProtocol initialValue() {
